@@ -17,7 +17,7 @@ class Stack
         Stack(const ValueType* valueArray, const int arraySize,
             StackContainer container = StackContainer::List);
 
-        explicit Stack(const Stack& other);
+        Stack(const Stack& other);
         Stack& operator=(const Stack& other);
 
         ~Stack();
